@@ -143,4 +143,14 @@ footer {
     .logo {
         display: none;
     }
+
+    @media  screen and (max-width: 500px) {
+        #quien-soy{
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
 }
