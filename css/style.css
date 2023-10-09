@@ -5,10 +5,6 @@
 }
 
 /* estilos globales */
-body {
-  height: 100vh;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -69,7 +65,7 @@ main {
 h1 {
   font-size: 5rem;
   margin: 30px 0px 30px 10px;
-  width: 600px;
+  width: 42%;
 }
 
 .contenedor-card {
@@ -115,12 +111,13 @@ h1 {
 
 .experiencia {
   font-size: 1.5rem;
-  width: 700px;
+  width: 50%;
 }
 
 /* estilos footer */
 footer {
   height: 15vh;
+  width: 100%;
   background-color: whitesmoke;
   display: flex;
   justify-content: space-around;
@@ -140,10 +137,10 @@ footer {
 }
 @media screen and (max-width: 1000px) and (max-width: 500px) {
   #quien-soy {
-    font-size: 1rem;
+    font-size: 50px;
   }
   p {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
