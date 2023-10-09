@@ -137,10 +137,12 @@ footer {
 }
 @media screen and (max-width: 1000px) and (max-width: 500px) {
   #quien-soy {
-    font-size: 50px;
+    font-size: 60px;
+    width: 100%;
   }
-  p {
-    font-size: 16px;
+  .experiencia {
+    font-size: 24px;
+    width: 100%;
   }
 }
 
