@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    width: 100%; 
+    padding: 0;
+   
+}
+
+.nav-link{
+    height: 10vh;
+    color: white;
+    &:hover {
+        color: #03FA6E;
+    }
+    display: flex;
+    align-items: center;
+}
+
+
+.enlaces-navbar {
+    justify-content: flex-end;
+}
+
+.color-div {
+    background-color: black;
+}

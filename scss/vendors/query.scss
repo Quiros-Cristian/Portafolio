@@ -1,0 +1,30 @@
+/* media query */
+
+@media screen and (max-width: 1000px) {
+    .logo {
+           display: none;
+        
+    }
+
+    #quien-soy{
+        font-size: 5rem;
+        width: 70%;
+    }
+
+    .experiencia {
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    @media  screen and (max-width: 500px) {
+        #quien-soy{
+            font-size: 60px;
+            width: 100%;
+        }
+
+        .experiencia {
+            font-size: 24px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+// base
+
+@import "./base/reset";
+
+// layout
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/principal";
+
+// componets
+
+@import "./componets/navigation.scss";
+@import "./componets/buttons.scss";
+
+// utils
+
+@import "./utils/mixin";
+
+// vendors
+
+@import "./vendors/query.scss";

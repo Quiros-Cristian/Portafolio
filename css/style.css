@@ -5,24 +5,51 @@
 }
 
 .navbar-toggler {
-  background-color: white;
-}
-
-/* estilos globales */
-a {
-  text-decoration: none;
-  color: black;
-  border-radius: 20px;
-}
-a:hover {
-  color: #03FA6E;
-  background-color: rgba(63, 63, 63, 0.342);
+  background-color: #03FA6E;
 }
 
 /* estilos header */
 header {
   height: 10vh;
   align-items: center;
+}
+
+/* estilos footer */
+footer {
+  height: 15vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*estilos main */
+main {
+  width: 100%;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  border-radius: 200px;
+}
+
+.logo-presentacion {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 30px 0px 30px 10px;
+  width: 42%;
+}
+
+.experiencia {
+  font-size: 1.5rem;
+  width: 50%;
 }
 
 .navbar {
@@ -49,27 +76,32 @@ header {
   background-color: black;
 }
 
-/*estilos main */
-main {
-  width: 100%;
+a {
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+}
+a:hover {
+  color: #03FA6E;
+  background-color: rgba(63, 63, 63, 0.342);
 }
 
-.logo {
-  width: 300px;
-  height: 300px;
-  margin-left: 200px;
-  border-radius: 200px;
+.enlace-proyectos {
+  font-size: 2rem;
+  background-color: #03FA6E;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 2px 5px 2px 5px;
 }
 
-.logo-presentacion {
-  display: flex;
-  align-items: center;
+.logos-redes {
+  width: 40px;
+  height: 40px;
 }
 
-h1 {
-  font-size: 5rem;
-  margin: 30px 0px 30px 10px;
-  width: 42%;
+.row {
+  justify-content: space-around;
 }
 
 .contenedor-card {
@@ -100,43 +132,18 @@ h1 {
   margin: 30px 0px 30px 0px;
 }
 
-.row {
-  justify-content: space-around;
-}
-
-.enlace-proyectos {
-  font-size: 2rem;
-  background-color: #03FA6E;
-  color: black;
-  text-decoration: none;
-  border-radius: 20px;
-  padding: 2px 5px 2px 5px;
-}
-
-.experiencia {
-  font-size: 1.5rem;
-  width: 50%;
-}
-
-/* estilos footer */
-footer {
-  height: 15vh;
-  width: 100%;
-  background-color: whitesmoke;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.logos-redes {
-  width: 40px;
-  height: 40px;
-}
-
-/* media querie */
+/* media query */
 @media screen and (max-width: 1000px) {
   .logo {
     display: none;
+  }
+  #quien-soy {
+    font-size: 5rem;
+    width: 70%;
+  }
+  .experiencia {
+    font-size: 2rem;
+    width: 90%;
   }
 }
 @media screen and (max-width: 1000px) and (max-width: 500px) {
