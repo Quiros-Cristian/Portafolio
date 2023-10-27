@@ -1,12 +1,13 @@
 /* media query */
 
 @media screen and (max-width: 1000px) {
-    .logo {
-       margin-left: 0;
-       
+
+    .logo-presentacion {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .div-logo {
+        grid-area: 1/1/2/2;
         width: 100%;
         margin: 10px 0px 10px 0px;
     }
@@ -17,7 +18,7 @@
 
     #quien-soy{
         font-size: 5rem;
-        width: 70%;
+        width: 100%;
     }
 
     .experiencia {
