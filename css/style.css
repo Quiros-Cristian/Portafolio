@@ -156,24 +156,21 @@ a:hover {
   h2 {
     margin-bottom: 40px;
   }
-  #quien-soy {
+  .quien-soy {
     font-size: 5rem;
-    width: 100%;
+    width: auto;
   }
   .experiencia {
-    text-align: center;
     font-size: 2rem;
-    width: 100%;
+    width: auto;
   }
 }
 @media screen and (max-width: 1000px) and (max-width: 500px) {
-  #quien-soy {
+  .quien-soy {
     font-size: 60px;
-    width: 100%;
   }
   .experiencia {
     font-size: 24px;
-    width: 100%;
   }
 }
 
